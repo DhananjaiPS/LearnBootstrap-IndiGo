@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.nav1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.nav1 ul{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    min-height: 4vh;
+    background-color: blue;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    justify-content: space-evenly;
+    }
+.nav1 ul a{
+    text-decoration: none;
+    color: white;
+
+}
+.nav2{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.log{
+    background-image: url(mit-logo3.png);
+    background-position: center;
+    background-size: contain;
+    height: 15vh;
+    width: 15%;
+
+    background-repeat: no-repeat;
+}
+.bar{
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    
+}
+.bar ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align:justify;
+    padding: 30px;
+    /* flex-direction: row; */
+}
+.bar ul li{
+    list-style: none;
+}
+.bar ul li a{
+    font-size: 1.2em;
+    text-decoration: none;
+}
+.dropmenu ul{
+    /* background-color: aqua; */
+    display: flex;
+    display: none;
+    flex-direction: column;
+}
+.dropmenu ul li{
+    border: 2px solid black;
+    /* margin: 7px; */
+    width: 25vh;
+    height: 4vh;
+    padding: 2px;
+    margin: 2px;
+    background-color: blueviolet;
+
+}
+#d1:hover{
+    display: block;
+}
